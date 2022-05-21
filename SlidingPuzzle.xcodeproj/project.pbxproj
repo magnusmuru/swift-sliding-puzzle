@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		717E3D13283922F300389E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717E3D12283922F300389E14 /* Main.storyboard */; };
+		7168C98128395565007F5309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7168C98028395565007F5309 /* Main.storyboard */; };
 		717E3D152839230D00389E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717E3D142839230D00389E14 /* LaunchScreen.storyboard */; };
 		9AB9A521203B6AC000BC1669 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB9A520203B6AC000BC1669 /* BoardView.swift */; };
 		9AB9A523203B7A2100BC1669 /* FifteenBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB9A522203B7A2100BC1669 /* FifteenBoard.swift */; };
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7168C98028395565007F5309 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = FifteenPuzzle/Main.storyboard; sourceTree = "<group>"; };
 		717E3D12283922F300389E14 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../../Swift-15Puzzle-master 4/FifteenPuzzle/SlidingPuzzle/Main.storyboard"; sourceTree = "<group>"; };
 		717E3D142839230D00389E14 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AB9A520203B6AC000BC1669 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 		9AFD04A8203B64A700BC7F80 = {
 			isa = PBXGroup;
 			children = (
+				7168C98028395565007F5309 /* Main.storyboard */,
 				9AFD04B3203B64A800BC7F80 /* FifteenPuzzle */,
 				9AFD04B2203B64A800BC7F80 /* Products */,
 			);
@@ -215,8 +217,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7168C98128395565007F5309 /* Main.storyboard in Resources */,
 				717E3D152839230D00389E14 /* LaunchScreen.storyboard in Resources */,
-				717E3D13283922F300389E14 /* Main.storyboard in Resources */,
 				9AFD04BF203B64A800BC7F80 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
